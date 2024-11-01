@@ -24,7 +24,9 @@ npm install @sun-typeface/suit
 
 ## Webfont
 
-### Static
+### HTML \<link>
+
+#### Static
 
 ```html
 <link
@@ -37,7 +39,7 @@ npm install @sun-typeface/suit
 </style>
 ```
 
-### Variable
+#### Variable
 
 ```html
 <link
@@ -48,6 +50,28 @@ npm install @sun-typeface/suit
 <style>
   body { font-family: 'SUIT Variable', sans-serif; }
 </style>
+```
+
+### CSS @import
+
+#### Static
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css");
+
+body {
+  font-family: 'SUIT', sans-serif;
+}
+```
+
+#### Variable
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css");
+
+body {
+  font-family: 'SUIT Variable', sans-serif;
+}
 ```
 
 ## License
